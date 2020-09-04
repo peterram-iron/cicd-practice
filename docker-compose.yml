@@ -6,6 +6,6 @@ services:
         command: sh -c "python main.py"
         # Replace "YOUR_USER" for your Docker Hub user
         # docker hub is a repository of docker images
-        image: ironpeterram/cicd-example:latest
+        image: ironpeterram/cicd-example2:latest
         ports:
             - "80:8000"
